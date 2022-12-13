@@ -1,5 +1,5 @@
 # COMP554-TinyML-micro_speech
-### Team members: Xuetao 
+### Team members: Xuetao Hu,
 
 In this project, we developed a TinyML-based wake word detection model that can be deployed on low-power devices. We trained the model using TensorFlow and deployed it on an Arduino Nano 33 BLE Sense. Our model can detect two specific words, such as "yes" and "no", and trigger certain actions, such as lighting up LEDs. By training the model on different words, our model can be used in a variety of applications, such as voice-controlled devices or smart home systems. This project demonstrates the potential of TinyML for wake word detection and other applications on low-power devices.
 
