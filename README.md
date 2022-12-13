@@ -5,9 +5,13 @@ In this project, we developed a TinyML-based wake word detection model that can 
 
 ## Overview of the hardware and software used in the project
 ### Hardware
-Arduino Nano 33 BLE Sense \n
-USB-A to Micro-USB Cable \n
+Arduino Nano 33 BLE Sense 
+
+USB-A to Micro-USB Cable 
+
 ### Software
 Arduino IDE
+
 TensorFlow Lite
+
 Google Colab
