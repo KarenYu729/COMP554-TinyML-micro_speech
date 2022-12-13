@@ -15,3 +15,11 @@ Arduino IDE
 TensorFlow Lite
 
 Google Colab
+
+## Reference
+https://www.tensorflow.org/lite/microcontrollers
+
+https://github.com/tensorflow/tensorflow/tree/be4f6874533d78f662d9777b66abe3cdde98f901/tensorflow/lite/experimental/micro/examples/micro_speech
+
+## Training progress
+https://github.com/KarenYu729/hardwareRelated/blob/main/tensorflow/lite/micro/examples/micro_speech/train/train_micro_speech_model.ipynb
