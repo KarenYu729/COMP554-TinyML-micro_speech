@@ -67,17 +67,17 @@ void RespondToCommand(tflite::ErrorReporter* error_reporter,
     }
   }
 
-  // If last_command_time is non-zero but was >3 seconds ago, zero it
+  // If last_command_time is non-zero but was >2 seconds ago, zero it
   // and switch off the LED.
   if (last_command_time != 0) {
-    if (last_command_time < (current_time - 3000)) {
+    if (last_command_time < (current_time - 2000)) {
       last_command_time = 0;
       digitalWrite(LED_BUILTIN, LOW);
       digitalWrite(LEDR, HIGH);
       digitalWrite(LEDG, HIGH);
       digitalWrite(LEDB, HIGH);
     }
-    // If it is non-zero but <3 seconds ago, do nothing.
+    // If it is non-zero but <2 seconds ago, do nothing.
     return;
   }
 
