@@ -20,4 +20,4 @@ Harvard_TinyMLx: version 1.2.2-Alpha
 ### Board
 Tools->Board->Boards Manager
 
-Arduino Mbed OS Nano Boards
+Arduino Mbed OS Nano Boards: version 3.4.1
